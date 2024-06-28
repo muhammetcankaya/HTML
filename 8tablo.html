@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="java dersler c dersleri falan filan">
+    <meta name="description" content="merve">
+    <title>HTML öĞRENİYORUM</title>
+    <style> 
+        h1, 
+        h3 { 
+            text-align: center; 
+            color: green; 
+        } 
+  
+        table { 
+            border-collapse: collapse; 
+            width: 50%; 
+        } 
+  
+        th, 
+        td { 
+            border: 1px solid #7a3f3f; 
+            padding: 10px; 
+            text-align: center; 
+        } 
+  
+        th { 
+            background-color: rgb(191, 248, 191); 
+        } 
+    </style> 
+    <!--üst kısmı internetten aldık böyle hazır kalıplar üzerinde oynayarak kendimze
+    özgü kodlar yapmış olabilir-->
+</head>
+
+<body>
+    <!--table border="sayı" kenarlık genişliği etiketi ile tablo oluşturma-->
+    <!--tr etiketi ile satır oluşturulur-->
+    <!--td ile tablo verisi girilir alt alta girince sutun oluşturmuş olur-->
+    <!--th tablo başlık olduğunu belirtir tablo başlıkları-->
+    <!--tablonun baş etiketi rowspan satırları birleştirir cowspan sutunları-->
+    <table border="2">
+        <tr>
+            <th colspan="3">Bilgiler</th>
+        </tr>
+        <tr>
+            <th>İsim</th>
+            <th>Soy isim</th>
+            <th>Yaş</th>
+        </tr>
+        <tr>
+            <td>Merve</td>
+            <td>Karayıldız</td>
+            <td>23</td>
+        </tr>
+    </table>
+    <table border="3" >
+        <tr>
+            <th colspan="3" bgcolor="red">Product</th>
+        </tr>
+        <tr>
+            <th>No</th>
+            <th>P.name</th>
+            <th>P.count</th>
+        </tr>
+        <tr>
+            <td>1</td> 
+            <td>Pen</td>
+            <td rowspan="3">50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Book</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Dust</td>
+        </tr>
+    </table>
+</body>
+
+</html>

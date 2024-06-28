@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="java dersler c dersleri falan filan">
+    <meta name="description" content="merve">
+    <title>HTML öĞRENİYORUM</title>
+</head>
+
+<body>
+    <!--input kutucuk verir type ile şeklini yazar
+        arkada gizli var için placeholder yapabilriiz
+        password şifre tipi gizli olacak tabikide
+        email formatıda var type olarak 
+        checkbox işaretlemeli kutucuk
+        radio  
+        file dosya seç butonu dosya seçmemizi sağlar
+        submit buton oluşturur
+        reset girdiğimiz değerleri temizler 
+        textarea metin alanı olur
+        select option iç içe kullanımı yapılır
+        -->
+    <!--Şimdi burada ufak çaplı bir proje yapalım-->
+    <table>
+        <tr>
+            <td>Adınız:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Soyadınız</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email Adres</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Şifre</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Cinsiyet</td>
+            <td>
+                <input type="radio" id="erko" name="radioerkek">
+                Erkek
+                <input type="radio" id="kado" name="radioerkek">
+                Kadın
+            </td>
+        </tr>
+        <tr>
+            <td>Doğum Tarihi:</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th colspan="2">Hobiler</th>
+        </tr>
+        <tr>
+            <td>Kitap Okumak</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Gezmek</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Spor</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><input type="file" name="Dosya seç" id="dosya"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><textarea name="Mesajınız" rows="5px" cols="50px"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" ><input type='reset' value='Reset'/></td><!--problem silme işlemi yapmıyor göndermede yapmıyor-->
+        </tr>
+    </table>
+    
+</body>
+
+</html>
